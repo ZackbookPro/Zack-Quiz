@@ -719,7 +719,7 @@ const finishQuiz = () => {
   answerCDiv.remove()
   answerDDiv.remove()
 
-  questionUpdate.innerText = ("Your score:" + grade + "/15" + "Correct Answers" + "\n" +
+  questionUpdate.innerText = ("Your score:" + grade + "/15" + "\n" + "Answer Key" + "\n" +
   "1: Samuel" + "\n" + 
   "2: Jazz" + "\n" + 
   "3: Meatloaf" + "\n" + 
